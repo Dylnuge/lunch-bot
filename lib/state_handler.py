@@ -15,6 +15,7 @@ class StateHandler:
 
     EVENTS_ENTRY = "events"
     PLANS_ENTRY = "lunches"
+    SUBSCRIPTIONS_ENTRY = "subscriptions"
 
     def __init__(self):
         self._db = None

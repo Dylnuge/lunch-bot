@@ -15,6 +15,7 @@ from lib.handlers.not_a_command import handle_not_a_command
 from lib.handlers.reset import handle_reset
 from lib.handlers.rsvp import handle_rsvp
 from lib.handlers.show_plans import handle_show_plans
+from lib.handlers.subscriptions import handle_subscribe, handle_unsubscribe
 from lib.handlers.un_rsvp import handle_un_rsvp
 from lib.models.message import Message
 
@@ -44,6 +45,8 @@ class LunchBotHandler(object):
             "reset": handle_reset,
             "rsvp": handle_rsvp,
             "show-plans": handle_show_plans,
+            "subscribe": handle_subscribe,
+            "unsubscribe": handle_unsubscribe,
             "un-rsvp": handle_un_rsvp,
         }
 

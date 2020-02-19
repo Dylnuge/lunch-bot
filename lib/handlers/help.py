@@ -1,13 +1,16 @@
 from lib import common
 from lib.handlers import HandlerParams
 
-
 HELP_MESSAGE = """
 Lunch Bot Help
 
 Available Commands:
 
 `help` Displays all available commands that Lunch Bot understands
+
+`subscribe` Every weekday, Lunch Bot will message you in the morning to remind
+you to make plans for lunch!
+`unsubscribe` Lunch Bot won't message you anymore.
 
 `make-plan [restaurant] [time]` Creates a lunch plan for a given place and time. [restaurant] and [time] must not \
 contain any spaces.
